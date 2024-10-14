@@ -40,33 +40,37 @@ nav a {
     color: #333;
 }
 
-article {
+article .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+article .image {
+    flex: 1;
     display: flex;
-    margin: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 article h2 {
     font-size: 30px;
     font-weight: bold;
-    text-align: left;
-    flex: 1;
+    text-align: center;
 }
 
 article p.date-author {
     font-size: 18px;
     font-style: italic;
     text-align: center;
+    margin: 10px 0;
 }
 
 article p.content {
     font-size: 18px;
-    text-align: center;
-    flex: 1;
+    text-align: left;
 }
 
 article img {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
 }
