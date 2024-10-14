@@ -54,8 +54,8 @@ article .text {
 article .image {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
 }
 
 article h2 {
@@ -79,4 +79,6 @@ article p.content {
 article img {
     max-width: 100%;
     height: auto;
+    justify-content: right;
+
 }
