@@ -80,3 +80,13 @@ article img {
     max-width: 100%;
     height: auto;
 }
+
+article ul {
+    margin: 10px 0;
+    padding-left: 20px; /* Indentation for better readability */
+}
+
+article ul li {
+    margin-bottom: 5px; /* Space between list items */
+    font-size: 15px; /* Font size for list items */
+}
